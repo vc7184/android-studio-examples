@@ -1,0 +1,6 @@
+public class MainActivity extends AppCompatActivity {
+	public void guess(View view){ //guess is the onClick method of Button
+		Intent a1=new Intent(MainActivity.this,second.class); //second is another XML file
+		     startActivity(a1);
+       }
+}
